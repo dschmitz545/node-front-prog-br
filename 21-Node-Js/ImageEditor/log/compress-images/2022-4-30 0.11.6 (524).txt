@@ -1,0 +1,7 @@
+File from: [./temp/output_resize.jpg]
+
+File to: [./compressed/output_resize.jpg]
+
+Compression algorithm: [-]
+
+Description: File does not exist!
