@@ -1,0 +1,1 @@
+* [resolvido] = por algum motivo, não está indo no userController.js > login > const token = jwt.sign o "admin_use", e com isso sempre que autentica na rota admin, está retornando que ele admin == false, mesmo no mongo estar gravado como true
