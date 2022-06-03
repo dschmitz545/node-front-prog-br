@@ -1,6 +1,5 @@
 const room = window.location.pathname.replace(/\//g, '');
-console.log(room);
-const socket = io(`http://192.168.4.58:4002/${room}`);
+const socket = io(`http://localhost:4002/${room}`);
 let user = null;
 
 socket.on('update_messages', (messages) => {
