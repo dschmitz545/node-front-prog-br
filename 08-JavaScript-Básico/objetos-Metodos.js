@@ -13,20 +13,20 @@ var aluno = {
 
 };
 
-console.log(aluno.situacao);
-console.log(aluno["notaMatematica"]);
-console.log(aluno.notaCiencia);
-console.log(aluno.notaCiencia[2]);
-console.log(aluno["notaCiencia"][1]);
+console.table(aluno.situacao);
+console.table(aluno["notaMatematica"]);
+console.table(aluno.notaCiencia);
+console.table(aluno.notaCiencia[2]);
+console.table(aluno["notaCiencia"][1]);
 
 // adicionando novas propriedades ao objeto, mesmo depois desse objeto já ter sido criado
 // 1- forma
 aluno.matricula = 3467883;
-console.log(aluno);
+console.table(aluno);
 
 // 2-forma
 aluno["sobrenome"] = "Antunes";
-console.log(aluno);
+console.table(aluno);
 
 ///////////// Outra forma de criar um objeto
 
@@ -59,12 +59,12 @@ function calcMedia(){
 }
 
 
-console.log(estudante.nome);
+console.table(estudante.nome);
 
 // com o uso do this dentro da função(método) calcMedia, não preciso mais chamar dessa forma
 // console.log(estudante.media(estudante.notas[0], estudante.notas[1]));
-console.log(estudante.media());
+console.table(estudante.media());
 
-console.log(estudante1.nome);
+console.table(estudante1.nome);
 // console.log(estudante1.media(estudante1.notas[0], estudante1.notas[1]));
-console.log(estudante1.media());
+console.table(estudante1.media());

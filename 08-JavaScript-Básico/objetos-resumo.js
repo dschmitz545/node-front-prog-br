@@ -1,7 +1,7 @@
 // primeira maneira de criar um objeto
 var a = {nome: "Diego", sobrenome: "Schmitz"};
 
-console.log(a);
+console.table(a);
 
 
 //segunda maneira de criar um objeto
@@ -11,7 +11,7 @@ function obj(n, s){
 };
 
 var b = obj("Diego", "Schmitz");
-console.log(b);
+console.table(b);
 
 
 // terceira maneira
@@ -23,4 +23,4 @@ function obj2(n, s){
 };
 
 var c = new obj2("Vini", "Schmitz");
-console.log(c);
+console.table(c);
