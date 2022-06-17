@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.cartao{
+    font-family: 'Roboto Mono', monospace;
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    /* box-sizing: border-box; */
+    background-image: url(./Imagens/backgorund.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#insta{
+    list-style-image: url(./Imagens/Insta.png);
+}
+
+#twitter{
+    list-style-image: url(./Imagens/Twitter.png);
+
+}
+#youtube{
+    list-style-image: url(./Imagens/Youtube.png);
+}

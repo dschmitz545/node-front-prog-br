@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Teste</title>
+    <script src="./acessar-elementos.js"></script>
+    <script src="./modificar-elementos.js"></script>
+    <script src="./eventos.js"></script>
+    <style>
+        .parag {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Teste elementos HTML-JavaScript</h1>
+        <p class="parag" id="pp1">Paragrafo 1</p>
+        <p class="parag">Paragrafo 2</p>
+        <p id="pp3">Paragrafo 3</p>
+        <h5>Titulo Principal</h5>
+        <p>Paragrafo 4</p>
+        <div>
+            <button onclick="inserirTxtClassName(document.getElementsByClassName('parag'))">
+                <h5>Imprimindo com byClassName</h5>
+            </button>
+            <button onclick="inserirTxtTagName(document.getElementsByTagName('h5'))">
+                <h5>Imprimindo com tagName</h5>
+            </button>
+        </div>
+        <div>
+            <button onclick="novoinnerHTML(document.getElementById('pp3'))"><h4>Inserir innerHTML</h4></button>
+            <button onclick="novoInnerText(document.getElementById('pp3'))"><h4>Inserir innerText</h4></button>
+            <button onclick="novoTextContet(document.getElementById('pp3'))"><h4>Inserir textContent</h4></button>
+        </div>
+        <div>
+            <button onclick="inserirAtt(document.getElementsByTagName('h5'))"><h5>Inserindo atributo</h5></button>
+        </div>
+        <p>Abra o console para ver o resultado</p>
+    </header>
+    <span>
+        <button>
+            <h2 onclick="f()">eventos -> clique aqui</h2>
+        </button>
+    </span>
+</body>
+
+</html>
