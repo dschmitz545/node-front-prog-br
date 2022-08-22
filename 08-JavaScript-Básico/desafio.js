@@ -1,7 +1,7 @@
 // retornar a seguinte expressão no final:
 // Nome do aluno - nota1 - nota2 - media - Aprovado?
 
-var alunos = ["Vini", "Juliana", "Diego"];
+var alunos = ["Vini", "Maria", "Diego"];
 var nota1 = [7.0, 6.5, 4.5];
 var nota2 = [8.0, 8.5, 5.5];
 

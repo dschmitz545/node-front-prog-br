@@ -22,5 +22,5 @@ function obj2(n, s){
     this.sobrenome = s;
 };
 
-var c = new obj2("Vini", "Schmitz");
+var c = new obj2("Vini", "Marcos");
 console.table(c);
